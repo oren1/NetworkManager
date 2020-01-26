@@ -49,6 +49,8 @@ class NetworkManagerTests: XCTestCase {
     
     func testNetworkManager() {
         
+        
+        
         let urlString = "http://www.mocky.io/v2/5e0af46b3300007e1120a7ef"
         testRedirectsForURL(urlString: urlString, maxAmountOfRedirects: 4)
         
